@@ -416,7 +416,7 @@
             name="_processContext" sca-bpel:internal="true"/>
         <bpws:variable element="ns0:TimerOutputSchema" name="Timer" sca-bpel:internal="true"/>
         <bpws:variable element="ns1:ActivityInput" name="Log-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns1:ActivityInput" name="Log1-input" sca-bpel:internal="true"/>
+        <bpws:variable element="ns1:ActivityInput" name="Log2-input" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -494,8 +494,8 @@
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="Log1-input"
-                    name="Log1"
+                <tibex:activityExtension inputVariable="Log2-input"
+                    name="Log2"
                     tibex:xpdlId="fb4113ce-1776-4a54-95ba-cdf26e747a96" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="LogToLog1"/>
